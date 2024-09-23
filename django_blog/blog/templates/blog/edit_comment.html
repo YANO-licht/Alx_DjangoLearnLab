@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="edit-comment">
+    <h2>Edit Comment</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="content" rows="4">{{ form.content.value }}</textarea><br>
+        <button type="submit">Save Changes</button>
+    </form>
+</section>
+{% endblock %}
