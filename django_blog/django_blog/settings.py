@@ -32,7 +32,7 @@ TEMPLATES = [
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-)t6v(v4kch1vi1lr7*3hw)o*)sl(mivcg&st#0g=596m6ls3ya'
+SECRET_KEY = 'vdm8xg&+)y5)!r$*webwmp$7ak!u=n1^t&5-^=exbhi(k@i4@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
